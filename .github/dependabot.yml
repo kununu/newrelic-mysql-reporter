@@ -7,6 +7,8 @@ updates:
       interval: "daily"
     labels:
       - "dependencies"
+    assignees:
+      - lorrandalx
   - package-ecosystem: "docker"
     directory: "/"
     open-pull-requests-limit: 0
@@ -14,6 +16,8 @@ updates:
       interval: "daily"
     labels:
       - "dependencies"
+    assignees:
+      - lorrandalx
   - package-ecosystem: "gomod"
     directory: "/"
     open-pull-requests-limit: 0
@@ -21,3 +25,5 @@ updates:
       interval: "daily"
     labels:
       - "dependencies"
+    assignees:
+      - lorrandalx
